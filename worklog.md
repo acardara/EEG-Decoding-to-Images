@@ -7,3 +7,6 @@
 - LSTM with ~16% test accuracy
 
 ### Alexander Cardaras
+4/7
+- convert .npy to edf
+- started visualization functions(need to verify correctness)
