@@ -8,5 +8,8 @@
 
 ### Alexander Cardaras
 4/7
-- convert .npy to edf
+- utility function for converting .npy to edf
 - started visualization functions(need to verify correctness)
+4/8
+- mapped EEG labels to 50k ImageNet64 images. This involved mapping {eeg label -> ImageNet id}, {ImageNet id ->  ImageNet64 id}, {ImageNet64 id -> ImageNet64 class}
+- utility functions for reading and writing images
