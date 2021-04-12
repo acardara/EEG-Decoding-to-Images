@@ -19,3 +19,8 @@
 4/8
 - mapped EEG labels to 50k ImageNet64 images. This involved mapping {eeg label -> ImageNet id}, {ImageNet id ->  ImageNet64 id}, {ImageNet64 id -> ImageNet64 class}
 - utility functions for reading and writing images
+
+4/11
+- utility functions for splitting train/test set of images.
+- conditional VAE implemented [reminder to find reference code and cite it] 
+    - generates low quality 12288(flattened 64x64x3) images with an average loss of 7.4k
