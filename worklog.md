@@ -24,3 +24,6 @@
 - utility functions for splitting train/test set of images.
 - conditional VAE implemented [reminder to find reference code and cite it] 
     - generates low quality 12288(flattened 64x64x3) images with an average loss of 7.4k
+
+4/13
+- compiled a comprehensive list of missing images.
