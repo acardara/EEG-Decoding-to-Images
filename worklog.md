@@ -27,3 +27,4 @@
 
 4/13
 - compiled a comprehensive list of missing images.
+- web scraped and filtered images
