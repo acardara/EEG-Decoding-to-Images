@@ -19,7 +19,7 @@
 ### Alexander Cardaras
 4/7
 - utility function for converting .npy to edf
-- started visualization functions(need to verify correctness)
+- started visualization functions [need to verify correctness]
 
 4/8
 - mapped EEG labels to 50k ImageNet64 images. This involved mapping {eeg label -> ImageNet id}, {ImageNet id ->  ImageNet64 id}, {ImageNet64 id -> ImageNet64 class}
@@ -27,9 +27,13 @@
 
 4/11
 - utility functions for splitting train/test set of images.
-- conditional VAE implemented [reminder to find reference code and cite it] 
+- conditional VAE implemented
     - generates low quality 12288(flattened 64x64x3) images with an average loss of 7.4k
 
 4/13
 - compiled a comprehensive list of missing images.
-- web scraped and filtered images
+- web scraped and filtered images(removed stand-in images)
+
+4/16
+- created jupyter notebook for Brain2Image lstm
+- added/tested gaussian noise to training set in hopes to reduce overfitting(didn't help) 
