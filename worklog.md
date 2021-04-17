@@ -11,6 +11,11 @@
 - GAN implementation - modified from reference noted in notebook
     - generates low quality 64x64x3 images
 
+4/16
+- added normalization of EEG data
+- added result analysis (confusion matrix)
+- tested different LSTM models with different frequency data (55-95 seems the best)
+
 ### Alexander Cardaras
 4/7
 - utility function for converting .npy to edf
