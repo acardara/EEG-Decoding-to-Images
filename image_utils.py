@@ -14,3 +14,20 @@ def flatten_images(data):
 # reshape image data from (36000, 12288) to (36000, 64, 64, 3) 
 def reshape_images(data):
   return data.reshape((data.shape[0],64,64,3))
+
+"""
+ Outdated helper functions
+ 
+def data_initial_reshape(data):
+  return data.reshape((data.shape[0],data.shape[1],3,64,64)).transpose((0,1,3,4,2))
+
+def data_reshape_to_new(data):
+  return data.reshape((data.shape[0],3,64,64)).transpose((0,2,3,1))
+
+def data_flattened_to_3d(data):
+  return data.reshape((data.shape[0],64,64,3))
+
+def data_3d_to_1d(data):
+  return data.reshape((data.shape[0], 12288))
+
+"""
