@@ -15,6 +15,14 @@ def flatten_images(data):
 def reshape_images(data):
   return data.reshape((data.shape[0],64,64,3))
 
+# splits image data into training and test sets(currently no randomization)
+def split_data(images, labels, train=0.8):
+  trainX = images[0:int(images.shape[0]*train)]
+  trainY = labels[0:int(labels.shape[0]*train)]
+  testX = images[int(images.shape[0]*train):]
+  testY = labels[int(labels.shape[0]*train):]
+  return (trainX, trainY), (testX, testY)
+
 """
  Outdated helper functions
  
