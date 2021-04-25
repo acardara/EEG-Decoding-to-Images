@@ -37,3 +37,8 @@
 4/16
 - created jupyter notebook for Brain2Image lstm
 - added/tested gaussian noise to training set in hopes to reduce overfitting(didn't help) 
+
+4/23
+- modified ac gan to work on rgb images
+- cleaned up 64x64x3 images/made them more easily accessable
+
