@@ -16,12 +16,19 @@ def reshape_images(data):
   return data.reshape((data.shape[0],64,64,3))
 
 # splits image data into training and test sets(currently no randomization)
-def split_data(images, labels, train=0.8):
-  trainX = images[0:int(images.shape[0]*train)]
-  trainY = labels[0:int(labels.shape[0]*train)]
-  testX = images[int(images.shape[0]*train):]
-  testY = labels[int(labels.shape[0]*train):]
-  return (trainX, trainY), (testX, testY)
+def split_data(images, labels, train=0.8, data_per_class=900):
+  trainX,trainY,testX,testY = [],[],[],[]
+  for i in range(images.shape[0]):
+    chunk = i % data_per_class
+    if chunk < data_per_class*train:
+      trainX.append(images[i])
+      trainY.append(labels[i])
+    else:
+      testX.append(images[i])
+      testY.append(labels[i])
+
+  return (np.asarray(trainX), np.asarray(trainY)), (np.asarray(testX), np.asarray(testY))
+
 
 """
  Outdated helper functions
