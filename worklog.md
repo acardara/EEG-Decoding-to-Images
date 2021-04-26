@@ -39,6 +39,11 @@
 - added/tested gaussian noise to training set in hopes to reduce overfitting(didn't help) 
 
 4/23
-- modified ac gan to work on rgb images
+- modified ac gan(jason) to work on rgb images
 - cleaned up 64x64x3 images/made them more easily accessable
+
+4/25
+- found and fixed a bug in image_utils.py related to spliting data incorrectly.
+- implemented thoughtviz's baseline acgan / trained it on 10 classes of our data
+    - very poor results after 100 epochs (IS ~1.3 +- 0.15)
 
