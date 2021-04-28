@@ -16,6 +16,15 @@
 - added result analysis (confusion matrix)
 - tested different LSTM models with different frequency data (55-95 seems the best)
 
+Week of 4/20
+- added ThoughtViz classifier for best EEG wave classification accuracy so far (~30%)
+- tested AC-GAN implementations
+    - generates very poor 64x64x3 images
+
+4/27
+- modified AC-GAN as per recommended changes
+    - Conv2DTranspose -> bilinear upsampling
+
 ### Alexander Cardaras
 4/7
 - utility function for converting .npy to edf
