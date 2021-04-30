@@ -56,3 +56,8 @@ Week of 4/20
 - implemented thoughtviz's baseline acgan / trained it on 10 classes of our data
     - very poor results after 100 epochs (IS ~1.3 +- 0.15)
 
+4/27-30
+- Switched over from colab to PRP cluster/ learned prp basics
+- Got regular GAN(not conditional) to create qualitatively ok images
+- Implemented a handful of GAN heuristics
+- Added basic data augmentation to increase dataset size
