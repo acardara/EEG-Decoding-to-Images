@@ -25,6 +25,10 @@ Week of 4/20
 - modified AC-GAN as per recommended changes
     - Conv2DTranspose -> bilinear upsampling
 
+4/30
+- looked into GAN improvements
+- added functionality Colab notebook to automatically create a new directory on Google drive and save images and model artifacts to it
+
 ### Alexander Cardaras
 4/7
 - utility function for converting .npy to edf
