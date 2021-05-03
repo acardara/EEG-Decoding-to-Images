@@ -63,5 +63,6 @@ Week of 4/20
 4/27-30
 - Switched over from colab to PRP cluster/ learned prp basics
 - Got regular GAN(not conditional) to create qualitatively ok images
+- Built and tested DCGAN
 - Implemented a handful of GAN heuristics
 - Added basic data augmentation to increase dataset size
