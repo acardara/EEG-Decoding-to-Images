@@ -29,6 +29,11 @@ Week of 4/20
 - looked into GAN improvements
 - added functionality Colab notebook to automatically create a new directory on Google drive and save images and model artifacts to it
 
+May Week 1
+- GAN improvements
+    - tested architectures from DCGAN, AC-GAN
+    - tested hyper-parameters from ^
+
 ### Alexander Cardaras
 4/7
 - utility function for converting .npy to edf
