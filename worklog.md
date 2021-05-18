@@ -71,3 +71,15 @@ May Week 1
 - Built and tested DCGAN
 - Implemented a handful of GAN heuristics
 - Added basic data augmentation to increase dataset size
+
+5/1-5/17
+- Hyperparameter testing of DCGAN and ACGAN
+- Spectral Normalization on DCGAN & ACGAN
+    - Hyperparameter testing with SN
+- Thorough analysis of 28x28 DCGAN 
+    - Hyperparameter adjustment for training(batch size, leraning rates, dataset augmentation): 
+        28x28 Grayscale(1 class), 
+        28x28 RGB(1 class)
+        64x64 RGB(1 class) w/wo Self attention
+        64x64 RGB(3 classes) w/wo Self attention
+        64x64 RGB(10 classes)
