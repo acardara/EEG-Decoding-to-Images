@@ -34,6 +34,15 @@ May Week 1
     - tested architectures from DCGAN, AC-GAN
     - tested hyper-parameters from ^
 
+May:
+- GAN testing
+    - architectures
+    - datasets
+    - data augmentations, etc
+
+6/4
+- added helper functions for loading datasets/augmenting loaded images
+
 ### Alexander Cardaras
 4/7
 - utility function for converting .npy to edf
