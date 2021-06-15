@@ -43,6 +43,12 @@ May:
 6/4
 - added helper functions for loading datasets/augmenting loaded images
 
+6/15
+- adaptive data augmentation
+    - adaptive p value used to control probability of augmentation
+    - 90 deg rotations and x-flip augmentations implemented
+    - added to train function
+
 ### Alexander Cardaras
 4/7
 - utility function for converting .npy to edf
