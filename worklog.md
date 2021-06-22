@@ -49,6 +49,11 @@ May:
     - 90 deg rotations and x-flip augmentations implemented
     - added to train function
 
+6/22
+- tested label smoothing and noisy labels
+- changed FID calculations to per 10 epoch
+- more tests on flowers dataset at 64x64
+
 ### Alexander Cardaras
 4/7
 - utility function for converting .npy to edf
