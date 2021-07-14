@@ -54,6 +54,10 @@ May:
 - changed FID calculations to per 10 epoch
 - more tests on flowers dataset at 64x64
 
+7/14
+- added seeded image output conditioning
+- added options for saving a validation set
+
 ### Alexander Cardaras
 4/7
 - utility function for converting .npy to edf
